@@ -1,1 +1,169 @@
-C:\Users\Utilisateur\Desktop\projet dd
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183b35">
+  <meta name="description" content="Accueil de jour à Condrieu : un lieu chaleureux, d'écoute et de répit destiné aux jeunes adultes de 18 à 25 ans en situation de précarité.">
+  <title>Accueil Dylan — Un lieu pour souffler et repartir</title>
+  <style>
+    :root{--forest:#183b35;--green:#2d6658;--mint:#e8f1eb;--cream:#fbf8f1;--gold:#d7a85c;--ink:#24332f;--muted:#65736e;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.65}
+    a{color:inherit} .wrap{width:min(1120px,92%);margin:auto}
+    header{position:sticky;top:0;z-index:5;background:#fbf8f1ee;backdrop-filter:blur(12px);border-bottom:1px solid #e7e4db}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{font-weight:800;color:var(--forest);font-size:1.2rem;text-decoration:none;letter-spacing:-.03em}
+    .brand span{display:block;font-size:.68rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+    nav{display:flex;gap:24px;align-items:center} nav a{text-decoration:none;font-size:.92rem;font-weight:700;color:#40534c}
+    nav a:hover{color:var(--green)} .menu{display:none;border:0;background:transparent;font-size:1.6rem;color:var(--forest)}
+    .hero{background:linear-gradient(120deg,#183b35 0%,#285b4e 65%,#477766 100%);color:white;padding:92px 0 86px;overflow:hidden;position:relative}
+    .hero:after{content:"";position:absolute;width:420px;height:420px;border:1px solid #ffffff25;border-radius:50%;right:-100px;top:-140px;box-shadow:0 0 0 45px #ffffff0a,0 0 0 95px #ffffff08}
+    .hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:50px;align-items:center;position:relative;z-index:1}
+    .eyebrow{color:#f0cf94;font-weight:800;text-transform:uppercase;letter-spacing:.16em;font-size:.76rem}
+    h1{font-size:clamp(2.6rem,6vw,4.8rem);line-height:1.04;letter-spacing:-.055em;margin:16px 0 22px;max-width:760px}
+    .hero p{font-size:1.15rem;max-width:650px;color:#e5eee9}
+    .actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}
+    .btn{display:inline-block;padding:13px 21px;border-radius:999px;text-decoration:none;font-weight:800;border:2px solid transparent}
+    .btn.gold{background:var(--gold);color:#24332f}.btn.light{border-color:#ffffff85;color:white}
+    .hero-note{background:#ffffff12;border:1px solid #ffffff35;border-radius:24px;padding:28px;backdrop-filter:blur(8px)}
+    .hero-note strong{display:block;font-size:1.1rem;margin-bottom:9px}.hero-note p{font-size:.98rem;margin:0;color:#e5eee9}
+    section{padding:78px 0}.section-tag{color:var(--green);font-size:.75rem;font-weight:800;text-transform:uppercase;letter-spacing:.16em}
+    h2{font-size:clamp(2rem,4vw,3rem);line-height:1.12;letter-spacing:-.04em;color:var(--forest);margin:10px 0 18px}
+    .intro{max-width:720px;color:var(--muted);font-size:1.08rem}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}
+    .card{background:white;border:1px solid #e9e7df;border-radius:20px;padding:26px;box-shadow:0 8px 24px #1b35240a}
+    .symbol{width:44px;height:44px;border-radius:14px;background:var(--mint);display:grid;place-items:center;font-size:1.35rem}
+    .card h3{color:var(--forest);margin:15px 0 8px}.card p{color:var(--muted);margin:0}
+    .soft{background:var(--mint)} .split{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+    .quote{font-size:1.55rem;line-height:1.4;color:var(--forest);font-weight:700;border-left:4px solid var(--gold);padding-left:22px}
+    .schedule{background:white;border-radius:22px;padding:28px;border:1px solid #e4e8e2}
+    .hours{display:flex;justify-content:space-between;gap:18px;padding:13px 0;border-bottom:1px solid #edf0eb}.hours:last-child{border:0}
+    .hours span:last-child{font-weight:800;color:var(--forest);text-align:right}
+    .notice{font-size:.9rem;color:var(--muted);margin-top:14px}
+    .location{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch}
+    .map{border:0;width:100%;min-height:330px;border-radius:22px;background:#e8eee8}
+    .contact{background:var(--forest);color:white;border-radius:24px;padding:32px}
+    .contact h2{color:white}.contact p{color:#dce8e1}.contact a{color:#f3d49d;font-weight:700}
+    .contact-line{padding:12px 0;border-bottom:1px solid #ffffff25}
+    footer{background:#102b26;color:#dce8e1;padding:28px 0;font-size:.9rem}
+    footer .foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+    .small{font-size:.85rem;color:#a9bdb4}
+    @media(max-width:800px){.hero-grid,.split,.location{grid-template-columns:1fr}.hero{padding:70px 0}.cards{grid-template-columns:1fr}.hero-note{max-width:520px}nav{display:none;position:absolute;top:76px;left:0;right:0;background:var(--cream);padding:18px 4%;flex-direction:column;align-items:flex-start;border-bottom:1px solid #e7e4db}nav.open{display:flex}.menu{display:block}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#accueil">ACCUEIL DYLAN<span>Écoute · Accueil · Solidarité</span></a>
+    <button class="menu" aria-label="Ouvrir le menu" aria-expanded="false" onclick="toggleMenu()">☰</button>
+    <nav id="navigation">
+      <a href="#mission" onclick="closeMenu()">Notre mission</a>
+      <a href="#accueil-jour" onclick="closeMenu()">Horaires</a>
+      <a href="#lieu" onclick="closeMenu()">Nous trouver</a>
+      <a href="#contact" onclick="closeMenu()">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="accueil">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Un accueil de jour à Condrieu</div>
+        <h1>Un endroit pour souffler. Une présence pour avancer.</h1>
+        <p>Un projet d'accueil de jour destiné aux jeunes adultes de 18 à 25 ans en situation de précarité. Un lieu chaleureux pour être accueilli, écouté et accompagné, sans jugement.</p>
+        <div class="actions">
+          <a class="btn gold" href="#contact">Nous contacter</a>
+          <a class="btn light" href="#mission">Découvrir le projet</a>
+        </div>
+      </div>
+      <aside class="hero-note">
+        <strong>Vous avez votre place ici.</strong>
+        <p>Prendre un temps de pause, échanger, trouver des informations et être orienté vers les bons interlocuteurs : chaque premier pas compte.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section id="mission">
+    <div class="wrap">
+      <div class="section-tag">Notre mission</div>
+      <h2>Accueillir avec respect, accompagner avec humanité.</h2>
+      <p class="intro">L'objectif du projet est de proposer un espace de confiance où les jeunes adultes qui traversent une période difficile peuvent trouver une écoute attentive, du répit et des pistes concrètes pour leurs démarches.</p>
+      <div class="cards">
+        <article class="card"><div class="symbol">🤝</div><h3>Un accueil sans jugement</h3><p>Être reçu avec bienveillance, dans le respect du parcours, du rythme et de la dignité de chacun.</p></article>
+        <article class="card"><div class="symbol">☕</div><h3>Un temps pour souffler</h3><p>Disposer d'un lieu où faire une pause, se poser et retrouver un peu de stabilité au quotidien.</p></article>
+        <article class="card"><div class="symbol">🧭</div><h3>Écoute et orientation</h3><p>Échanger sur ses besoins et être orienté vers les services et professionnels adaptés à sa situation.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="soft">
+    <div class="wrap split">
+      <div>
+        <div class="section-tag">Une conviction</div>
+        <h2>Chaque personne mérite une place et un nouveau départ.</h2>
+        <p class="intro">Nous ne pouvons peut-être pas changer le monde entier aujourd'hui, mais nous pouvons contribuer à rendre une journée plus douce et ouvrir le chemin vers de nouvelles possibilités.</p>
+      </div>
+      <div class="quote">« Vous comptez. Vous méritez le respect, la dignité et une place dans ce monde. »</div>
+    </div>
+  </section>
+
+  <section id="accueil-jour">
+    <div class="wrap split">
+      <div>
+        <div class="section-tag">Quand nous rencontrer</div>
+        <h2>Les horaires d'accueil</h2>
+        <p class="intro">Le projet prévoit une ouverture toute la semaine à Condrieu. Contactez-nous avant de vous déplacer afin de vérifier les modalités d'accueil et l'ouverture effective.</p>
+      </div>
+      <div class="schedule">
+        <div class="hours"><span>Du lundi au vendredi</span><span>8h00 – 16h30</span></div>
+        <div class="hours"><span>Samedi et dimanche</span><span>10h00 – 18h30</span></div>
+        <p class="notice">Horaires prévisionnels du projet, à confirmer avant l'ouverture officielle.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="soft" id="lieu">
+    <div class="wrap">
+      <div class="section-tag">Notre secteur</div>
+      <h2>Un projet ancré à Condrieu</h2>
+      <div class="location">
+        <div>
+          <p class="intro">L'accueil de jour est prévu à Condrieu (69420), dans le département du Rhône, en région Auvergne-Rhône-Alpes.</p>
+          <p><strong>Adresse précise :</strong> à communiquer dès qu'un lieu d'accueil sera confirmé.</p>
+          <p class="notice">La carte indique la commune de Condrieu et non l'adresse exacte du futur accueil.</p>
+          <a class="btn gold" href="https://www.google.com/maps/search/?api=1&query=Condrieu+69420+France" target="_blank" rel="noopener">Voir Condrieu sur la carte</a>
+        </div>
+        <iframe class="map" title="Carte de Condrieu" loading="lazy" src="https://www.google.com/maps?q=Condrieu%2069420%20France&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="contact">
+        <div class="section-tag" style="color:#f0cf94">Restons en contact</div>
+        <h2>Une question, une envie d'aider ou de rejoindre le projet ?</h2>
+        <p>Vous pouvez prendre contact pour en savoir plus sur le projet d'accueil de jour, proposer votre aide ou échanger sur un partenariat.</p>
+        <div class="contact-line">Téléphone : <a href="tel:+33771463412">07 71 46 34 12</a></div>
+        <div class="contact-line">E-mail : <a href="mailto:dylanlefebvredd@gmail.com">dylanlefebvredd@gmail.com</a></div>
+        <div class="contact-line">Site : <a href="https://accueil-dylan.fr">accueil-dylan.fr</a> · <a href="https://accueil-dylan.com">accueil-dylan.com</a></div>
+        <p class="small">Le site présente un projet d'accueil. Il ne constitue pas une confirmation d'ouverture d'un établissement ou d'une association déjà déclarée.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div><strong>Accueil Dylan</strong><br><span class="small">Un projet d'accueil de jour à Condrieu (69420)</span></div>
+    <div>© <span id="year"></span> Accueil Dylan · Tous droits réservés</div>
+  </div>
+</footer>
+<script>
+  function toggleMenu(){const n=document.getElementById('navigation');const b=document.querySelector('.menu');const open=n.classList.toggle('open');b.setAttribute('aria-expanded',String(open));}
+  function closeMenu(){document.getElementById('navigation').classList.remove('open');document.querySelector('.menu').setAttribute('aria-expanded','false');}
+  document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
