@@ -1,0 +1,395 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rejoindre le projet | Accueil de Jour 18-25ans</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f2e8;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #245c43;
+      color: white;
+      text-align: center;
+      padding: 45px 20px;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.2em;
+    }
+
+    nav {
+      background: #174531;
+      text-align: center;
+      padding: 15px;
+    }
+
+    nav a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      margin: 5px 12px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #d5a843;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 25px 20px;
+    }
+
+    section {
+      background: white;
+      padding: 25px;
+      margin-bottom: 25px;
+      border-radius: 15px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+    }
+
+    h2, h3 {
+      color: #245c43;
+    }
+
+    .intro {
+      background: #e6ecdf;
+      border-left: 6px solid #d5a843;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 25px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 8px;
+      color: #245c43;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 13px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+      font-family: Arial, sans-serif;
+      background: #fff;
+    }
+
+    textarea {
+      min-height: 150px;
+      resize: vertical;
+    }
+
+    input:focus, select:focus, textarea:focus {
+      outline: 2px solid #d5a843;
+      border-color: #245c43;
+    }
+
+    .checkbox-group {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+    }
+
+    .checkbox-group input {
+      width: auto;
+      margin-top: 6px;
+    }
+
+    .checkbox-group label {
+      font-weight: normal;
+      color: #333;
+    }
+
+    .button {
+      display: inline-block;
+      background: #245c43;
+      color: white;
+      padding: 14px 25px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background: #174531;
+    }
+
+    .notice {
+      background: #fff5d8;
+      border-left: 5px solid #d5a843;
+      padding: 18px;
+      border-radius: 8px;
+    }
+
+    .required {
+      color: #a12626;
+    }
+
+    footer {
+      text-align: center;
+      background: #245c43;
+      color: white;
+      padding: 25px;
+      margin-top: 30px;
+    }
+
+    footer a {
+      color: #f5df9b;
+    }
+
+    @media(max-width:600px) {
+      header h1 {
+        font-size: 1.7em;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px;
+      }
+
+      section {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Rejoindre le projet</h1>
+  <p>Ensemble, construisons un lieu de solidarité pour les jeunes de 18 à 25 ans.</p>
+  <p><strong>Un toit, un sud, un avenir.</strong></p>
+</header>
+
+<nav>
+  <a href="index.html">Accueil</a>
+  <a href="equipe.html">Notre équipe</a>
+  <a href="benevoles.html">Devenir bénévole</a>
+  <a href="partenaires.html">Partenaires</a>
+  <a href="nos-besoins.html">Nos besoins</a>
+  <a href="contact-orientation.html">Contact</a>
+</nav>
+
+<div class="container">
+
+  <div class="intro">
+    <h2>Vous souhaitez participer à notre projet ?</h2>
+
+    <p>
+      L'Accueil de Jour 18-25ans est un projet solidaire en construction
+      à Condrieu et dans ses alentours.
+    </p>
+
+    <p>
+      Bénévoles, associations, entreprises, habitants, professionnels
+      ou partenaires : chacun peut apporter une aide, une compétence,
+      une idée, du matériel ou un soutien.
+    </p>
+
+    <p>
+      Remplissez le formulaire ci-dessous pour nous faire connaître
+      votre proposition et nous permettre de vous recontacter.
+    </p>
+  </div>
+
+  <section>
+    <h2>Formulaire pour rejoindre le projet</h2>
+
+    <p>
+      Les champs marqués d'un <span class="required">*</span>
+      sont obligatoires.
+    </p>
+
+    <!-- Remplacer EMAIL_A_REMPLACER par l'adresse de réception -->
+
+    <form action="https://formsubmit.co/EMAIL_A_REMPLACER"
+          method="POST">
+
+      <input type="hidden" name="_subject"
+             value="Nouvelle proposition pour l'Accueil de Jour 18-25ans">
+
+      <input type="hidden" name="_template"
+             value="table">
+
+      <input type="hidden" name="_next"
+             value="https://accueil-de-jour-18-25ans.dylanlefebvredd.workers.dev/remerciements.html">
+
+      <!-- Champ anti-spam -->
+      <input type="text" name="_honey"
+             style="display:none">
+
+      <div class="form-group">
+        <label for="type">Je souhaite participer en tant que : <span class="required">*</span></label>
+
+        <select id="type" name="Type de participation" required>
+          <option value="">-- Choisir --</option>
+          <option>Bénévole</option>
+          <option>Association</option>
+          <option>Entreprise</option>
+          <option>Habitant</option>
+          <option>Professionnel</option>
+          <option>Donateur</option>
+          <option>Partenaire institutionnel</option>
+          <option>Autre</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="nom">Nom et prénom : <span class="required">*</span></label>
+        <input type="text" id="nom" name="Nom et prénom"
+               autocomplete="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="organisation">Association, entreprise ou organisation :</label>
+        <input type="text" id="organisation"
+               name="Organisation">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Adresse e-mail : <span class="required">*</span></label>
+        <input type="email" id="email" name="Email"
+               autocomplete="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="telephone">Téléphone :</label>
+        <input type="tel" id="telephone" name="Téléphone"
+               autocomplete="tel">
+      </div>
+
+      <div class="form-group">
+        <label for="disponibilite">Mes disponibilités :</label>
+
+        <select id="disponibilite" name="Disponibilités">
+          <option value="">-- Choisir --</option>
+          <option>Ponctuellement</option>
+          <option>Quelques heures par semaine</option>
+          <option>Régulièrement</option>
+          <option>Selon les besoins</option>
+          <option>À définir</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="proposition">Comment souhaitez-vous participer ? <span class="required">*</span></label>
+
+        <textarea id="proposition" name="Proposition"
+          placeholder="Présentez votre proposition, vos compétences, votre aide ou votre idée..."
+          required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="territoire">Commune :</label>
+        <input type="text" id="territoire"
+               name="Commune">
+      </div>
+
+      <div class="form-group checkbox-group">
+        <input type="checkbox" id="consentement"
+               name="Consentement"
+               value="Accepté"
+               required>
+
+        <label for="consentement">
+          J'accepte que les informations renseignées soient utilisées
+          uniquement pour répondre à ma proposition et me recontacter
+          concernant le projet Accueil de Jour 18-25ans.
+          <span class="required">*</span>
+        </label>
+      </div>
+
+      <p class="notice">
+        Vos informations ne doivent pas contenir de données sensibles.
+        Elles sont destinées au porteur du projet pour traiter votre demande.
+        Vous pouvez demander leur suppression en contactant le responsable
+        du projet.
+      </p>
+
+      <button type="submit" class="button">
+        Envoyer ma proposition
+      </button>
+
+    </form>
+  </section>
+
+  <section>
+    <h2>Qui peut nous rejoindre ?</h2>
+
+    <ul>
+      <li>Les personnes souhaitant devenir bénévoles.</li>
+      <li>Les entreprises souhaitant soutenir le projet.</li>
+      <li>Les associations souhaitant collaborer.</li>
+      <li>Les habitants souhaitant apporter leur aide.</li>
+      <li>Les professionnels souhaitant partager leurs compétences.</li>
+      <li>Les partenaires souhaitant accompagner le développement.</li>
+      <li>Les personnes proposant des dons ou du matériel.</li>
+    </ul>
+  </section>
+
+  <section class="notice">
+    <h2>Un projet en construction</h2>
+
+    <p>
+      L'Accueil de Jour 18-25ans n'est pas encore ouvert.
+      Ce formulaire permet de recueillir les propositions de soutien
+      et de participation en vue du développement du projet.
+    </p>
+
+    <p>
+      Les modalités de participation seront définies en fonction
+      de l'avancement, des moyens et du cadre de fonctionnement.
+    </p>
+  </section>
+
+  <section>
+    <h2>Merci pour votre soutien</h2>
+
+    <p>
+      Chaque proposition, chaque compétence, chaque idée et chaque geste
+      de solidarité peut contribuer à faire avancer ce projet.
+    </p>
+
+    <p><strong>Ensemble, construisons un avenir plus solidaire.</strong></p>
+
+    <a class="button" href="index.html">Retour à l'accueil</a>
+  </section>
+
+</div>
+
+<footer>
+  <p><strong>Accueil de Jour 18-25ans</strong></p>
+  <p>Condrieu et ses alentours</p>
+  <p>Un toit, un sud, un avenir.</p>
+  <p><a href="index.html">Retour à l'accueil</a></p>
+</footer>
+
+</body>
+</html>
