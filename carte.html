@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Nos communes | Accueil de Jour 18-25ans</title>
+
+  <meta name="description" content="Découvrez les communes autour de Condrieu concernées par le projet Accueil de Jour 18-25ans, un projet de solidarité pour les jeunes en difficulté.">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f2e8;
+      color: #245c43;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 15px;
+      background: #245c43;
+      color: white;
+      border-bottom: 5px solid #d5a843;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 30px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    .conteneur {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+
+    .carte-section {
+      background: white;
+      border: 3px solid #d5a843;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+    }
+
+    h2 {
+      text-align: center;
+      color: #245c43;
+    }
+
+    .intro {
+      text-align: center;
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    #carte {
+      height: 480px;
+      width: 100%;
+      border-radius: 15px;
+      border: 2px solid #d5a843;
+      margin-top: 25px;
+      z-index: 1;
+    }
+
+    .communes {
+      background: #f5f2e8;
+      padding: 20px;
+      border-radius: 15px;
+      margin-top: 25px;
+    }
+
+    .communes h3 {
+      text-align: center;
+    }
+
+    .liste {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .liste span {
+      background: #245c43;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .bouton {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 13px 22px;
+      background: #245c43;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .bouton:hover {
+      background: #367453;
+      transform: translateY(-2px);
+    }
+
+    .centrer {
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      background: #245c43;
+      color: white;
+      padding: 25px 15px;
+      margin-top: 30px;
+      border-top: 4px solid #d5a843;
+    }
+
+    footer a {
+      color: #f5d477;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 24px;
+      }
+
+      .conteneur {
+        padding: 12px;
+      }
+
+      .carte-section {
+        padding: 15px;
+      }
+
+      #carte {
+        height: 380px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Accueil de Jour 18-25ans</h1>
+  <p>Un toit, un sud, un avenir.</p>
+</header>
+
+<main class="conteneur">
+
+  <section class="carte-section">
+
+    <h2>Nos communes autour de Condrieu</h2>
+
+    <p class="intro">
+      Notre projet a pour vocation de soutenir les jeunes
+      de 18 à 25 ans en situation de précarité, sans domicile
+      ou en difficulté.<br>
+      Découvrez les communes autour de Condrieu qui pourraient
+      être concernées par notre projet de solidarité.
+    </p>
+
+    <div id="carte" aria-label="Carte interactive des communes autour de Condrieu"></div>
+
+    <div class="communes">
+      <h3>Les communes de notre secteur</h3>
+
+      <div class="liste">
+        <span>Condrieu</span>
+        <span>Les Roches-de-Condrieu</span>
+        <span>Saint-Clair-du-Rhône</span>
+        <span>Ampuis</span>
+        <span>Vérin</span>
+        <span>Tupin-et-Semons</span>
+        <span>Saint-Michel-sur-Rhône</span>
+        <span>Chavanay</span>
+        <span>Loire-sur-Rhône</span>
+        <span>Vienne</span>
+      </div>
+    </div>
+
+    <p class="intro">
+      <strong>Ensemble, construisons un avenir plus solidaire
+      pour les jeunes.</strong>
+    </p>
+
+    <div class="centrer">
+      <a href="index.html" class="bouton">
+        Retour à l'accueil
+      </a>
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  <p><strong>Accueil de Jour 18-25ans</strong></p>
+  <p>Un toit, un sud, un avenir.</p>
+  <p>Projet de solidarité à Condrieu et ses alentours.</p>
+  <p>© 2026 – Tous droits réservés</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+  const carte = L.map('carte').setView([45.46, 4.78], 11);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; OpenStreetMap'
+  }).addTo(carte);
+
+  const communes = [
+    ["Condrieu", 45.461, 4.766],
+    ["Les Roches-de-Condrieu", 45.455, 4.770],
+    ["Saint-Clair-du-Rhône", 45.486, 4.770],
+    ["Ampuis", 45.486, 4.808],
+    ["Vérin", 45.470, 4.780],
+    ["Tupin-et-Semons", 45.480, 4.820],
+    ["Saint-Michel-sur-Rhône", 45.510, 4.790],
+    ["Chavanay", 45.410, 4.810],
+    ["Loire-sur-Rhône", 45.440, 4.790],
+    ["Vienne", 45.525, 4.874]
+  ];
+
+  communes.forEach(function(commune) {
+    L.marker([commune[1], commune[2]])
+      .addTo(carte)
+      .bindPopup(
+        "<strong>" + commune[0] + "</strong><br>" +
+        "Secteur du projet Accueil de Jour 18-25ans"
+      );
+  });
+</script>
+
+</body>
+</html>
