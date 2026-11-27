@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nos objectifs et notre impact | Accueil de Jour 18-25ans</title>
+
+<meta name="description" content="Découvrez les objectifs de l'Accueil de Jour 18-25ans et l'impact social que nous souhaitons développer auprès des jeunes en difficulté.">
+
+<style>
+*{
+  box-sizing:border-box;
+}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#f5f2e8;
+  color:#333;
+  line-height:1.7;
+}
+header{
+  background:#245c43;
+  color:white;
+  text-align:center;
+  padding:40px 20px;
+}
+header h1{
+  margin:0 0 10px;
+}
+nav{
+  background:#194632;
+  text-align:center;
+  padding:12px;
+}
+nav a{
+  color:white;
+  text-decoration:none;
+  display:inline-block;
+  margin:7px;
+}
+nav a:hover{
+  text-decoration:underline;
+}
+.container{
+  max-width:1000px;
+  margin:auto;
+  padding:25px;
+}
+.card{
+  background:white;
+  border-radius:14px;
+  padding:25px;
+  margin:22px 0;
+  box-shadow:0 4px 12px rgba(0,0,0,.07);
+}
+h2{
+  color:#245c43;
+}
+h3{
+  color:#245c43;
+}
+.objectif{
+  border-left:5px solid #d5a843;
+}
+.impact{
+  background:#e9efe9;
+  border-radius:12px;
+  padding:20px;
+  margin:15px 0;
+}
+ul li{
+  margin-bottom:8px;
+}
+.highlight{
+  background:#245c43;
+  color:white;
+  padding:25px;
+  border-radius:14px;
+  text-align:center;
+}
+.button{
+  display:inline-block;
+  background:#245c43;
+  color:white;
+  text-decoration:none;
+  padding:13px 22px;
+  border-radius:8px;
+  margin-top:12px;
+}
+.button:hover{
+  background:#194632;
+}
+footer{
+  background:#245c43;
+  color:white;
+  text-align:center;
+  padding:25px;
+}
+footer a{
+  color:white;
+}
+@media(max-width:600px){
+  .container{
+    padding:12px;
+  }
+  .card{
+    padding:18px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Nos objectifs et notre impact</h1>
+  <p>Agir pour la dignité, l'autonomie et l'avenir des jeunes de 18 à 25 ans.</p>
+  <p><strong>Accueil de Jour 18-25ans</strong></p>
+</header>
+
+<nav>
+  <a href="index.html">Accueil</a>
+  <a href="qui-sommes-nous.html">Qui sommes-nous ?</a>
+  <a href="nos-actions.html">Nos actions</a>
+  <a href="parcours-jeune.html">Parcours d'un jeune</a>
+  <a href="rejoindre-projet.html">Rejoindre le projet</a>
+</nav>
+
+<main class="container">
+
+<section class="card">
+  <h2>Pourquoi ce projet ?</h2>
+
+  <p>
+    L'Accueil de Jour 18-25ans a pour ambition de proposer
+    un espace d'accueil, de soutien et d'accompagnement
+    destiné aux jeunes adultes confrontés à des situations
+    de précarité, d'isolement ou de rupture.
+  </p>
+
+  <p>
+    Entre 18 et 25 ans, certaines personnes peuvent se retrouver
+    sans logement stable, sans ressources suffisantes,
+    sans soutien familial ou face à des difficultés
+    administratives, sociales et personnelles.
+  </p>
+
+  <p>
+    Notre volonté est de construire une réponse humaine,
+    accessible et bienveillante, en travaillant avec les acteurs
+    locaux et les partenaires qui pourront contribuer
+    à la réalisation de ce projet.
+  </p>
+</section>
+
+<section class="card">
+  <h2>Nos principaux objectifs</h2>
+
+  <div class="impact objectif">
+    <h3>1. Répondre aux besoins essentiels</h3>
+    <p>
+      Favoriser l'accès à des réponses concernant les besoins
+      fondamentaux des jeunes, notamment l'alimentation,
+      l'hygiène, le repos et la dignité.
+    </p>
+  </div>
+
+  <div class="impact objectif">
+    <h3>2. Rompre l'isolement</h3>
+    <p>
+      Proposer un espace convivial où les jeunes pourront
+      rencontrer d'autres personnes, échanger, créer du lien
+      et ne plus se sentir seuls face à leurs difficultés.
+    </p>
+  </div>
+
+  <div class="impact objectif">
+    <h3>3. Faciliter l'accès aux droits</h3>
+    <p>
+      Favoriser l'accompagnement dans les démarches
+      administratives, l'accès aux dispositifs existants,
+      aux services sociaux et aux organismes compétents.
+    </p>
+  </div>
+
+  <div class="impact objectif">
+    <h3>4. Favoriser l'accès au logement</h3>
+    <p>
+      Aider les jeunes à identifier les solutions d'hébergement
+      et de logement adaptées à leur situation et les orienter
+      vers les structures compétentes.
+    </p>
+  </div>
+
+  <div class="impact objectif">
+    <h3>5. Accompagner vers l'autonomie</h3>
+    <p>
+      Encourager les jeunes à reprendre confiance en leurs
+      capacités, à développer leurs compétences et à avancer
+      dans leurs projets personnels.
+    </p>
+  </div>
+
+  <div class="impact objectif">
+    <h3>6. Favoriser l'accès à l'emploi et à la formation</h3>
+    <p>
+      Faciliter les échanges avec les structures d'insertion,
+      les missions locales, les organismes de formation
+      et les professionnels susceptibles d'accompagner
+      les jeunes dans leurs démarches.
+    </p>
+  </div>
+
+  <div class="impact objectif">
+    <h3>7. Développer un réseau local de solidarité</h3>
+    <p>
+      Construire des partenariats avec les collectivités,
+      associations, entreprises, bénévoles, professionnels
+      et habitants afin de mobiliser les ressources locales.
+    </p>
+  </div>
+</section>
+
+<section class="card">
+  <h2>L'impact que nous souhaitons apporter</h2>
+
+  <p>
+    Notre ambition est de contribuer progressivement
+    à améliorer les conditions de vie des jeunes accueillis.
+    L'impact recherché ne se limite pas à une aide ponctuelle :
+    il s'inscrit dans une démarche d'accompagnement,
+    de confiance et de construction de l'avenir.
+  </p>
+
+  <ul>
+    <li>Permettre à des jeunes de trouver un lieu d'accueil et d'écoute.</li>
+    <li>Favoriser l'accès aux besoins essentiels.</li>
+    <li>Faciliter l'accès aux informations et aux dispositifs d'aide.</li>
+    <li>Contribuer à rompre l'isolement social.</li>
+    <li>Favoriser les démarches vers l'hébergement et le logement.</li>
+    <li>Encourager les démarches vers l'emploi et la formation.</li>
+    <li>Renforcer la confiance et l'autonomie.</li>
+    <li>Développer une dynamique de solidarité sur le territoire.</li>
+  </ul>
+</section>
+
+<section class="card">
+  <h2>Comment mesurer notre impact ?</h2>
+
+  <p>
+    Lorsque l'accueil sera ouvert, nous souhaitons pouvoir
+    évaluer progressivement les actions mises en place,
+    dans le respect de la confidentialité et de la dignité
+    des personnes accueillies.
+  </p>
+
+  <p>Des indicateurs pourront notamment être envisagés :</p>
+
+  <ul>
+    <li>Nombre de personnes accueillies.</li>
+    <li>Nombre de temps d'accueil et d'écoute réalisés.</li>
+    <li>Nombre d'orientations vers les partenaires.</li>
+    <li>Nombre d'accompagnements dans les démarches.</li>
+    <li>Actions réalisées autour de l'alimentation et de l'hygiène.</li>
+    <li>Partenariats développés sur le territoire.</li>
+    <li>Retours anonymisés des personnes accueillies.</li>
+    <li>Évolution des actions et des besoins identifiés.</li>
+  </ul>
+
+  <p>
+    Ces indicateurs permettront d'identifier les besoins,
+    d'adapter les actions et de rendre compte de l'évolution
+    du projet aux partenaires et soutiens.
+  </p>
+</section>
+
+<section class="card">
+  <h2>Un projet ancré dans son territoire</h2>
+
+  <p>
+    L'Accueil de Jour 18-25ans souhaite s'inscrire
+    dans une dynamique locale autour de Condrieu
+    et des communes environnantes.
+  </p>
+
+  <p>
+    Nous souhaitons travailler avec les acteurs locaux
+    afin de créer des complémentarités, faciliter les orientations
+    et construire une réponse adaptée aux besoins identifiés
+    sur le territoire.
+  </p>
+
+  <p>
+    Le projet repose sur la coopération, l'entraide,
+    la mobilisation des ressources locales et la volonté
+    de construire un accueil respectueux de chaque personne.
+  </p>
+</section>
+
+<section class="card">
+  <h2>Un projet en construction</h2>
+
+  <p>
+    Les objectifs et impacts présentés sur cette page
+    correspondent à la vision et aux ambitions du projet.
+    L'Accueil de Jour 18-25ans n'est pas encore ouvert.
+    Les actions envisagées dépendront notamment des moyens,
+    des partenariats, des locaux et des ressources mobilisés.
+  </p>
+
+  <div class="highlight">
+    <h3 style="color:white;">Ensemble, construisons une solution solidaire.</h3>
+    <p>
+      Vous êtes une association, une entreprise, un professionnel,
+      une collectivité, un bénévole ou un habitant ?
+      Votre soutien peut contribuer à faire avancer ce projet.
+    </p>
+
+    <a class="button"
+       href="rejoindre-projet.html"
+       style="background:#d5a843;color:#245c43;">
+       Rejoindre le projet
+    </a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p><strong>Accueil de Jour 18-25ans</strong></p>
+  <p>Un toit, un sud, un avenir.</p>
+  <p>Projet en construction</p>
+  <p><a href="contact-orientation.html">Nous contacter</a></p>
+</footer>
+
+</body>
+</html>
