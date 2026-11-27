@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comment nous aider ? | Accueil de Jour 18-25 ans</title>
+  <meta name="description" content="Découvrez comment soutenir le projet Accueil de Jour 18-25 ans : dons, bénévolat, matériel, compétences et partenariats.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f7f1;
+      color: #263b30;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #234d38;
+      color: white;
+      text-align: center;
+      padding: 45px 20px;
+    }
+
+    header h1 {
+      font-size: 2.3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      max-width: 750px;
+      margin: auto;
+    }
+
+    nav {
+      background: #173a2a;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 6px;
+    }
+
+    nav a:hover {
+      background: #477a59;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+
+    .intro {
+      text-align: center;
+      padding: 30px 15px;
+    }
+
+    .intro h2 {
+      color: #234d38;
+      font-size: 1.8rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 22px;
+      margin: 30px 0;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 14px;
+      border: 1px solid #dce7dc;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      color: #2e6946;
+      margin-top: 0;
+    }
+
+    .icon {
+      font-size: 2rem;
+    }
+
+    .callout {
+      background: #e2eee2;
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      margin: 35px 0;
+    }
+
+    .callout h2 {
+      color: #234d38;
+    }
+
+    .contact {
+      background: white;
+      padding: 30px;
+      text-align: center;
+      border-radius: 15px;
+      margin-top: 30px;
+    }
+
+    .contact a {
+      display: inline-block;
+      background: #2e6946;
+      color: white;
+      text-decoration: none;
+      padding: 12px 22px;
+      border-radius: 8px;
+      margin-top: 12px;
+      font-weight: bold;
+    }
+
+    .contact a:hover {
+      background: #234d38;
+    }
+
+    footer {
+      text-align: center;
+      background: #234d38;
+      color: white;
+      padding: 25px 15px;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: white;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.8rem;
+      }
+
+      main {
+        padding: 20px 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Comment nous aider ?</h1>
+  <p>Ensemble, faisons grandir un projet solidaire pour les jeunes adultes de 18 à 25 ans.</p>
+</header>
+
+<nav>
+  <a href="index.html">Accueil</a>
+  <a href="qui-sommes-nous.html">Qui sommes-nous ?</a>
+  <a href="nos-besoins.html">Nos besoins</a>
+  <a href="nos-actions.html">Nos actions</a>
+  <a href="nos-locaux.html">Nos locaux</a>
+  <a href="partenaires.html">Partenaires</a>
+</nav>
+
+<main>
+
+  <section class="intro">
+    <h2>Chaque soutien compte</h2>
+    <p>
+      Le projet Accueil de Jour 18-25 ans a pour ambition de proposer
+      un lieu d'accueil, d'écoute, de partage et d'accompagnement
+      destiné aux jeunes adultes qui rencontrent des difficultés
+      dans leur quotidien.
+    </p>
+    <p>
+      Pour faire grandir ce projet et préparer sa mise en place,
+      nous avons besoin de personnes, d'associations, d'entreprises
+      et de partenaires prêts à s'engager à nos côtés.
+    </p>
+  </section>
+
+  <section class="grid">
+
+    <article class="card">
+      <div class="icon">🪑</div>
+      <h3>Dons de mobilier</h3>
+      <p>
+        Vous disposez de mobilier en bon état dont vous n'avez plus
+        besoin ? Tables, chaises, fauteuils, étagères, bureaux ou
+        meubles de rangement pourront contribuer à aménager
+        un espace accueillant et chaleureux.
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="icon">📦</div>
+      <h3>Dons de matériel</h3>
+      <p>
+        Le projet peut avoir besoin de matériel informatique,
+        fournitures, vaisselle, jeux de société, livres,
+        équipements de cuisine et objets utiles à la vie quotidienne.
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="icon">🤝</div>
+      <h3>Bénévolat</h3>
+      <p>
+        Vous souhaitez donner un peu de votre temps, participer
+        à des activités, apporter une présence bienveillante
+        ou contribuer à la mise en place du projet ?
+        Votre engagement peut faire la différence.
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="icon">🛠️</div>
+      <h3>Partager vos compétences</h3>
+      <p>
+        Bricolage, informatique, cuisine, animation, communication,
+        administratif, décoration ou accompagnement :
+        toutes les compétences et expériences utiles
+        peuvent contribuer au développement du projet.
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="icon">🏢</div>
+      <h3>Partenariats</h3>
+      <p>
+        Associations, collectivités, entreprises, professionnels
+        et acteurs sociaux peuvent participer à la construction
+        du projet en apportant leur expertise, leurs ressources,
+        leur réseau ou leur accompagnement.
+      </p>
+    </article>
+
+    <article class="card">
+      <div class="icon">💚</div>
+      <h3>Soutien financier</h3>
+      <p>
+        Un soutien financier, lorsqu'un cadre adapté sera mis en place,
+        pourra contribuer à l'aménagement des locaux, à l'achat
+        de matériel, aux activités et au développement
+        du futur accueil de jour.
+      </p>
+    </article>
+
+  </section>
+
+  <section class="callout">
+    <h2>Un projet qui se construit avec vous</h2>
+    <p>
+      Chaque geste, chaque idée, chaque rencontre et chaque
+      partenariat peut participer à la création d'un espace
+      de solidarité, d'écoute et d'entraide pour les jeunes
+      adultes de 18 à 25 ans.
+    </p>
+    <p>
+      Le projet est actuellement en construction.
+      Nous souhaitons rassembler les personnes et les acteurs
+      qui veulent participer à cette démarche solidaire.
+    </p>
+  </section>
+
+  <section class="contact">
+    <h2>Vous souhaitez nous soutenir ?</h2>
+    <p>
+      Vous souhaitez proposer un don, du mobilier, du matériel,
+      partager une compétence, devenir bénévole ou échanger
+      autour d'un partenariat ?
+    </p>
+    <p>
+      N'hésitez pas à prendre contact pour échanger
+      autour de votre proposition et des besoins du projet.
+    </p>
+
+    <a href="index.html#contact">Nous contacter</a>
+  </section>
+
+</main>
+
+<footer>
+  <p><strong>Accueil de Jour 18-25 ans</strong></p>
+  <p>Un projet solidaire, humain et ouvert sur l'avenir.</p>
+  <p><a href="index.html">Retour à l'accueil</a></p>
+</footer>
+
+</body>
+</html>
